@@ -9,16 +9,20 @@ The script is based on **SMILExtract** executable file that was compiling on **U
 
 I added also some conf files based on the ones you can find in the official  site [https://www.audeering.com/download/opensmile-2-3-0-zip/](https://www.audeering.com/download/opensmile-2-3-0-zip/)
 
-Then using the conf file will get in the CSV :
+Using the conf files in this repo will get CSV that contains:
 
  1. The wav file name
  2. Frame index
  3. Frame time
- 4. All the Features
+ 4. All the features defined in the conf flie
 
-You can't create your own conf file following the openSMILE-latest-book.pdf that can also be found in: [https://www.audeering.com/download/opensmile-2-3-0-zip/](https://www.audeering.com/download/opensmile-2-3-0-zip/)
+You can't create your own conf file following the *openSMILE-latest-book.pdf*
+that can also be found in:
 
-other good information can be found in:
+[https://www.audeering.com/download/opensmile-2-3-0-zip/](https://www.audeering.com/download/opensmile-2-3-0-zip/)
+
+Other good information can be found in:
+
 [https://stackoverflow.com/questions/43555779/how-to-create-custom-config-files-in-opensmile](https://stackoverflow.com/questions/43555779/how-to-create-custom-config-files-in-opensmile)
 
 **Note:**
