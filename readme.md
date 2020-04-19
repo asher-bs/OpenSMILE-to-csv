@@ -2,22 +2,27 @@
 
 **OpenSMILE** "world-class audio analysis toolkit" 
 
-This python script runs over all the .wav files in a folder and creates file that contains column with all the feature according to the configuration file.
-The script is based on **SMILExtract** executable file that was compiling on **Ubuntu 18.04.4 LTS** .
+This python script runs over all the .wav files in a folder and creates CSV file that contains columns with all the feature according to the configuration file.
 
-I added also some conf flies based on the ones you can find in the official  site [https://www.audeering.com/download/opensmile-2-3-0-zip/](https://www.audeering.com/download/opensmile-2-3-0-zip/)
+**Note:**
+The script is based on **SMILExtract** executable file that was compiling on **Ubuntu 18.04.4 LTS**.
 
-Then using my conf file can get in the CSV file also the:
+I added also some conf files based on the ones you can find in the official  site [https://www.audeering.com/download/opensmile-2-3-0-zip/](https://www.audeering.com/download/opensmile-2-3-0-zip/)
+
+Then using the conf file will get in the CSV :
 
  1. The wav file name
  2. Frame index
  3. Frame time
- 4. Features for small frames (25ms, 10ms overlap)
+ 4. All the Features
 
 You can't create your own conf file following the openSMILE-latest-book.pdf that can also be found in: [https://www.audeering.com/download/opensmile-2-3-0-zip/](https://www.audeering.com/download/opensmile-2-3-0-zip/)
+
 other good information can be found in:
 [https://stackoverflow.com/questions/43555779/how-to-create-custom-config-files-in-opensmile](https://stackoverflow.com/questions/43555779/how-to-create-custom-config-files-in-opensmile)
-Note: Editing conf file using Edit them with Sublime Tesx  Editor may cause problems.
+
+**Note:**
+Editing conf file using Edit them with Sublime Tesx  Editor may cause problems.
 # Files
 
 StackEdit stores your files in your browser, which means all your files are automatically savedenter code here locally and are accessible **offline!**
