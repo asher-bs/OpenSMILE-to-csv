@@ -5,24 +5,21 @@
 This python script runs over all the .wav files in a folder and creates CSV file that contains columns with all the feature according to the configuration file.
 
 **Note:**
+
 The script is based on **SMILExtract** executable file that was compiling on **Ubuntu 18.04.4 LTS**.
 
-I added also some conf files based on the ones you can find in the official  site [https://www.audeering.com/download/opensmile-2-3-0-zip/](https://www.audeering.com/download/opensmile-2-3-0-zip/)
+I added also some conf files based on the ones you can find in the official site 
 
-Using the conf files in this repo will get CSV that contains:
+Using the *.conf* files in this repo will get CSV that contains:
 
  1. The wav file name
  2. Frame index
  3. Frame time
- 4. All the features defined in the conf flie
+ 4. All the features defined in the configuration flie
 
-You can't create your own conf file following the *openSMILE-latest-book.pdf*
-that can also be found in:
-
-[https://www.audeering.com/download/opensmile-2-3-0-zip/](https://www.audeering.com/download/opensmile-2-3-0-zip/)
-
-Other good information can be found in:
-
+You can't create your own configuration file following the *openSMILE-latest-book.pdf*
+that can also be found in the [official site][https://www.audeering.com/download/opensmile-2-3-0-zip]
+Other good information for making configuration files can be found in:
 [https://stackoverflow.com/questions/43555779/how-to-create-custom-config-files-in-opensmile](https://stackoverflow.com/questions/43555779/how-to-create-custom-config-files-in-opensmile)
 
 **Note:**
