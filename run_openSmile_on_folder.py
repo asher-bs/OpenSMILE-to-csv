@@ -8,7 +8,7 @@ Created on Sun Apr 19 22:52:30 2020
 
 ## Run openSmile on a flie
 ## 
-## ./SMILExtract -C conf/emobase_25ms_file_names_csv.conf  -I example-audio/opensmile.wav -O emobase.csv
+## ./SMILExtract -C conf/emobase_25ms_frames_2_csv.conf  -I example-audio/opensmile.wav -O emobase.csv
 ##
 
 import glob
@@ -16,7 +16,7 @@ import shutil
 import os
 
 
-conf_file ="conf/emobase_25ms_file_names_csv.conf" 
+conf_file ="conf/emobase_full_frame_2_csv.conf" 
 audio_path="example-audio/*"
 cvs_file="features.csv"
 
