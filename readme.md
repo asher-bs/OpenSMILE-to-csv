@@ -1,8 +1,8 @@
 ﻿# OpenSMILE Feature extraction
 
-**OpenSMILE** *"world-class audio analysis toolkit" *
+**OpenSMILE** "world-class audio analysis toolkit" 
 
-This python script runs over all the .wav files in a folder and creates  file that contains column with all the feature according to the configuration file.
+This python script runs over all the .wav files in a folder and creates file that contains column with all the feature according to the configuration file.
 The script is based on **SMILExtract** executable file that was compiling on **Ubuntu 18.04.4 LTS** .
 
 I added also some conf flies based on the ones you can find in the official  site [https://www.audeering.com/download/opensmile-2-3-0-zip/](https://www.audeering.com/download/opensmile-2-3-0-zip/)
@@ -34,40 +34,6 @@ All your files and folders are presented as a tree in the file explorer. You can
 
 You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
 
-## Delete a file
-
-You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
-
-## Export a file
-
-You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
-
-
-# Synchronization
-
-Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
-
-There are two types of synchronization and they can complement each other:
-
-- The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.
-	> To start syncing your workspace, just sign in with Google in the menu.
-
-- The file synchronization will keep one file of the workspace synced with one or multiple files in **Google Drive**, **Dropbox** or **GitHub**.
-	> Before starting to sync files, you must link an account in the **Synchronize** sub-menu.
-
-## Open a file
-
-You can open a file from **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Open from**. Once opened in the workspace, any modification in the file will be automatically synced.
-
-## Save a file
-
-You can save any file of the workspace to **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Save on**. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.
-
-## Synchronize a file
-
-Once your file is linked to a synchronized location, StackEdit will periodically synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be resolved.
-
-If you just have modified your file and you want to force syncing, click the **Synchronize now** button in the navigation bar.
 
 > **Note:** The **Synchronize now** button is disabled if you have no file to synchronize.
 
@@ -82,12 +48,6 @@ Publishing in StackEdit makes it simple for you to publish online your files. On
 
 > Before starting to publish, you must link an account in the **Publish** sub-menu.
 
-## Publish a File
-
-You can publish your file by opening the **Publish** sub-menu and by clicking **Publish to**. For some locations, you can choose between the following formats:
-
-- Markdown: publish the Markdown text on a website that can interpret it (**GitHub** for instance),
-- HTML: publish the file converted to HTML via a Handlebars template (on a blog for example).
 
 ## Update a publication
 
@@ -97,13 +57,7 @@ After publishing, StackEdit keeps your file linked to that publication which mak
 
 ## Manage file publication
 
-Since one file can be published to multiple locations, you can list and manage publish locations by clicking **File publication** in the **Publish** sub-menu. This allows you to list and remove publication locations that are linked to your file.
-
-
-# Markdown extensions
-
-StackEdit extends the standard Markdown syntax by adding extra **Markdown extensions**, providing you with some nice features.
-
+Since one file can be published to multiple locations, you can list and manage publish locations by clicking **File publication** in the **Publish** sub-menu. This allows you to list and remove publication locations that are linked to your 
 > **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
 
 
