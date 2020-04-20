@@ -17,11 +17,12 @@ Using the *.conf* files in this repo will get CSV that contains:
 
 You can create your own configuration file following the *openSMILE-latest-book*
 from the [official site](https://www.audeering.com/download/opensmile-2-3-0-zip)
+
 Other good information for making configuration files can be found in:
 [https://stackoverflow.com/questions/43555779/how-to-create-custom-config-files-in-opensmile](https://stackoverflow.com/questions/43555779/how-to-create-custom-config-files-in-opensmile)
 
 **Note:**
-Editing conf file using Edit them with Sublime Tesx  Editor may cause problems.
+Editing conf file using *Sublime Text* editor may cause problem to executable file to read them. 
 # Files
 
 
