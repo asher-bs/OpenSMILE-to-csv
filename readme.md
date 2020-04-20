@@ -4,9 +4,7 @@
 
 This python script runs over all the .wav files in a folder and creates CSV file that contains columns with all the feature according to the configuration file.
 
-**Note:**
-
-The script is based on **SMILExtract** executable file that was compiling on **Ubuntu 18.04.4 LTS**.
+>**Note:** The script is based on **SMILExtract** executable file that was compiling on **Ubuntu 18.04.4 LTS**.
 
 Using the *.conf* files in this repo will get CSV that contains:
 
@@ -22,7 +20,7 @@ Other good information for making configuration files can be found in:
 
 [https://stackoverflow.com/questions/43555779/how-to-create-custom-config-files-in-opensmile](https://stackoverflow.com/questions/43555779/how-to-create-custom-config-files-in-opensmile)
 
-**Note:**
+> **Note:** 
 Editing conf file using *Sublime Text* editor may cause problem to executable file to read them. 
 # Files
 
