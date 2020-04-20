@@ -23,7 +23,7 @@ Other good information for making configuration files can be found in:
 
 ## CVS Examples
 
-When using *emobase_full_frame_2_csv*  the files head :
+When using *emobase_full_frame_2_csv.conf*  the files head :
 
 |    name                                 |pcm_intensity_sma_variance|pcm_intensity_sma_stdd|
 |-----------------------------------------|--------------------------|-------------------------
@@ -31,7 +31,7 @@ When using *emobase_full_frame_2_csv*  the files head :
 |'example-audio/opensmile.wav'            |1.634973e-11              |4.043480e-06          |
 
 
-When using *emobase_25ms_frames_2_csv*  the files head :
+When using *emobase_25ms_frames_2_csv.conf*  the files head :
 
 |name                                    |frameIndex|frameTime   |pcm_intensity_sma_variance|
 |----------------------------------------|----------|------------|--------------------------|
