@@ -19,6 +19,7 @@ You can create your own configuration file following the *openSMILE-latest-book*
 from the [official site](https://www.audeering.com/download/opensmile-2-3-0-zip)
 
 Other good information for making configuration files can be found in:
+
 [https://stackoverflow.com/questions/43555779/how-to-create-custom-config-files-in-opensmile](https://stackoverflow.com/questions/43555779/how-to-create-custom-config-files-in-opensmile)
 
 **Note:**
@@ -52,16 +53,24 @@ Since one file can be published to multiple locations, you can list and manage p
 > **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
 
 
-## SmartyPants
+## CVS Examples
 
-SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
+When using *emobase_full_frame_2_csv*  the files head :
 
-|                |ASCII                          |HTML                         |
-|----------------|-------------------------------|-----------------------------|
-|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
-|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+|    name                                 |pcm_intensity_sma_variance|pcm_intensity_sma_stdd|
+|-----------------------------------------|--------------------------|-------------------------
+|'example-audio/media-interpretation.wav' |5.729106e-12              |2.393555e-06          |
+|'example-audio/opensmile.wav'            |1.634973e-11              |4.043480e-06          |
 
+
+When using *emobase_25ms_frames_2_csv*  the files head :
+
+|name                                    |frameIndex|frameTime   |pcm_intensity_sma_variance|
+|----------------------------------------|----------|------------|--------------------------|
+|'example-audio/media-interpretation.wav'|0         |0.012500    |2.828065e-21              |
+|'example-audio/media-interpretation.wav'|1         |0.012500    |9.548435e-21              |
+|'example-audio/media-interpretation.wav'|2         |0.020006    |5.578462e-21              |
+|'example-audio/media-interpretation.wav'|3         |0.030006    |1.493910e-21              |
 
 ## KaTeX
 
