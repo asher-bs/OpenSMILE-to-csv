@@ -6,27 +6,26 @@ Created on Sun Apr 19 22:52:30 2020
 @author: asher
 """
 
-## Run openSmile on a folder
-##file is resaved with pydub be compatable with openSMLIE
-## Example hot to run one flie
+## This Script will exctrcat openSmile feautres from a configuration file that were tweaked.
+## was tested on Ubuntu 18.04 LTS
+## all the files are re-saved using pydub be compatable with openSMLIE
+##
+## Example of exctract feautresr from one flie
 ## ./SMILExtract -C conf/emobase_25ms_frames_2_csv.conf  -I example-audio/opensmile.wav -O emobase.csv
 ##
+
 
 import glob
 import shutil
 import os
 from pydub import AudioSegment
-from colorama import Fore, Back, Style 
+from colorama import Fore, Back, Style
 
 
-#conf_file ="conf/ComParE_2016.conf" 
-#conf_file="emobase_full_frame_2_csv.conf"
-conf_file="emobase_25ms_frames_2_csv.conf"
-#audio_path="/home/asher/Dataset/Laryngitis_500ms_48K_16bit/train/0/*"
+conf_file ="conf/emobase_25ms_file_names_csv.conf" 
+audio_path="example-audio/*"
+cvs_file="features.csv"
 
-#---------------------------------
-audio_path="/home/linuxu/Data/asher_test/Rd/test/healthy/*/*"
-cvs_file="Rd_test_healthy_emobase.csv"
 
 if os.path.exists(cvs_file):
     print(Fore.BLUE+"Deleteing old cvs file") ,print(Style.RESET_ALL)
