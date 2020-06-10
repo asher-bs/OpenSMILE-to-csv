@@ -6,7 +6,7 @@ This python script runs over all the .wav files in a folder and creates CSV file
 
 >**Note:** The script is based on **SMILExtract** executable file that was compiling on **Ubuntu 18.04.4 LTS**.
 
-The SMILExtract doesn't recognize wav header for wav files written with librosa
+The SMILExtract doesn't recognize wav header written with librosa
 to overcome this problems all files are re-written using pydub lib
 
 Using the *.conf* files in this repo will get CSV that contains:
