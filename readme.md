@@ -5,6 +5,7 @@
 This python script runs over all the .wav files in a folder and creates CSV file that contains columns with all the feature according to the configuration file.
 
 >**Note:** The script is based on **SMILExtract** executable file that was compiling on **Ubuntu 18.04.4 LTS**.
+
 The SMILExtract doesn't recognize wav header for wav files written with librosa
 to overcome this problems all files are re-written using pydub lib
 
